@@ -1,0 +1,99 @@
+
+body{
+    overflow: hidden;
+
+}
+
+/* Hero-section */
+
+#hero-section::before{
+    content: '';
+    background-image: url('https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Multi-Page%20Website/images/topAngle.png?raw=true');
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    margin-top: 4rem;
+}
+
+.arrow,.mouse{
+    width: 1rem;
+    height: 1rem;
+}
+.arrow img,.mouse img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 18rem;
+    top: -14rem;
+}
+
+.mouse img{
+left: 23rem;
+}
+
+
+#hero-section{
+    display: flex;
+    height: 100%;
+    background-image: url('https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Multi-Page%20Website/images/stethoscope.png?raw=true');
+}
+
+/* left-section */
+.left-section{
+width: 40%;
+margin: 0 auto;
+height: auto;
+display: flex;
+flex-direction: column;
+margin-top: 5rem;
+gap: 2rem;
+}
+
+/* right-section */
+
+.right-section{
+width: 100%;
+display: flex;
+height: 100%;
+
+}
+
+.right-section #left{
+    height: 100%;
+    width: 100%;
+}
+
+.right-section #left img{
+    height: 60%;
+    width: 90%;
+    position: relative;
+    left: 19rem;
+    top: 9rem;
+    z-index: 2;
+}
+.doctor-img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.doctor-img img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 5;
+    left: -4.6rem;
+    top: -0.6rem;
+}
+
+#right{
+width: 50%;
+position: fixed;
+top: 16.8999rem;
+right:-8.4rem;
+z-index: 3;
+}
+
+#right img{
+    width: 50%;
+}
